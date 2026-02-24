@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Directory</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Professional Career Directory</h1>
+        <input type="text" id="search" placeholder="Search for professionals...">
+    </header>
+    <main>
+        <section id="filter">
+            <h2>Filter by Profession</h2>
+            <select id="professionFilter">
+                <option value="">All</option>
+                <option value="Engineer">Engineer</option>
+                <option value="Doctor">Doctor</option>
+                <option value="Designer">Designer</option>
+            </select>
+        </section>
+        <section id="results">
+            <h2>Results</h2>
+            <ul id="resultsList"></ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
